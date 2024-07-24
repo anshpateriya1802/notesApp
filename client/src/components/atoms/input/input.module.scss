@@ -1,0 +1,18 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
+    h4 {
+        font-size: var(--fs-lg);
+        font-weight: var(--fw-medium);
+    }
+
+    input {
+        border: 1px solid var(--grey);
+        border-radius: 8px;
+        font-size: var(--fs-md);
+        padding: 15px 20px;
+        margin-bottom: 11px;
+    }
+}
